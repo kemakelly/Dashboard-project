@@ -1,5 +1,6 @@
 import { useState } from "react";
-import styles from "./setting.module.css"
+import styles from "./Setting.module.css"
+
 
 export default function Setting() {
   const [isSaveClicked, setIsSaveClicked] = useState(false);
